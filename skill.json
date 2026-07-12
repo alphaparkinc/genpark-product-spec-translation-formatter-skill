@@ -1,0 +1,26 @@
+{
+  "name": "genpark-product-spec-translation-formatter-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Localize specs formats and units into target locales.",
+  "author": "genpark",
+  "category": "merchandising",
+  "tags": [
+    "translation",
+    "merchandising"
+  ],
+  "inputs": {
+    "specs": {
+      "type": "object"
+    },
+    "locale": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "formatted_specs": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
